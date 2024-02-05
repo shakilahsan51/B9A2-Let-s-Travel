@@ -1,0 +1,23 @@
+@media screen and (max-width:600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .right-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    .banner {
+        height: 800px;
+        margin: 0 60px;
+    }
+
+    .banner-form {
+        flex-direction: column;
+    }
+
+}

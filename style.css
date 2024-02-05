@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------- Share Class---------------- */
+.yellow {
+    color: rgb(255, 84, 0);
+}
+
+
+header {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.orange-btn {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: white;
+    width: 195px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+/*-------------------- navbar-------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.left-nav {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.right-nav {
+    display: flex;
+    gap: 45px;
+}
+
+.right-nav li {
+    list-style: none;
+}
+
+.right-nav li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(66, 66, 71);
+}
+
+
+
+/* <!------------------- Banner ------------------> */
+.banner {
+    height: 500px;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(41, 39, 39)), url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-description {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+}
+
+
+/*-----------banner-form--------------*/
+
+.banner-form {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.3);
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+
+
+.banner-form [type='text'] {
+    padding: 15px 15px;
+    border-radius: 8px;
+    border: none;
+
+}
+
+
+.select-1 {
+    width: 195px;
+    height: 52px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.select-2 {
+    width: 195px;
+    height: 52px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: none;
+}
