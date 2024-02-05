@@ -14,7 +14,7 @@
 
 
 header {
-    width: 1200px;
+    max-width: 1200px;
     margin: 30px auto;
 }
 
@@ -28,6 +28,27 @@ header {
     justify-content: center;
     align-items: center;
     border: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.all-title {
+    color: rgb(19, 19, 24);
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.all-description {
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 30px 0;
 }
 
 /*-------------------- navbar-------------------- */
@@ -76,6 +97,7 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    /* margin-bottom: 100px; */
 }
 
 .banner-title {
@@ -86,7 +108,7 @@ header {
 
 .banner-description {
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 26px;
     text-align: center;
@@ -128,4 +150,26 @@ header {
     padding-left: 10px;
     border-radius: 8px;
     border: none;
+}
+
+/* <!-- ---------popular-tour---------- --> */
+
+.popular-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 100px 0;
+}
+
+.left-tour {
+    width: 50%;
+}
+
+.right-tour {
+    width: 50%;
+}
+
+.right-tour img {
+    width: 100%;
 }
