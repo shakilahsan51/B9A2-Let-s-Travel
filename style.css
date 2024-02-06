@@ -410,3 +410,54 @@ main {
     font-weight: 800;
     padding-bottom: 10px;
 }
+
+.packages {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  <!-- -------Get-lost------------- --> */
+.get-lost {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.get-lost-left {
+    width: 50%;
+}
+
+.get-lost-right {
+    width: 50%;
+
+}
+
+
+.get-lost-title {
+    color: rgb(19, 19, 24);
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 60px;
+
+}
+
+.get-lost-left li {
+    margin: 10px 0;
+}
+
+.see-more {
+    margin-top: 30px;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: white;
+    width: 195px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}

@@ -120,5 +120,24 @@
         overflow: hidden;
     }
 
+    /*  <!-- -------Get-lost------------- --> */
+
+    .get-lost {
+        flex-direction: column-reverse;
+    }
+
+    .get-lost-left {
+        width: 100%;
+    }
+
+    .get-lost-right {
+        width: 100%;
+
+    }
+
+    .get-lost-right iframe {
+        width: 100%;
+
+    }
 
 }
