@@ -140,4 +140,20 @@
 
     }
 
+    /* <!--------- News-letter -----------> */
+    .news-letter {
+        flex-direction: column;
+    }
+
+    .left-news {
+
+        width: 100%;
+
+    }
+
+    .right-news {
+        width: 100%;
+
+    }
+
 }
