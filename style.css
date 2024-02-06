@@ -484,8 +484,8 @@ main {
 
 .input {
     /* Rectangle 3 */
-    width: 393px;
-    height: 52px;
+    width: 100%;
+    height: 3.5rem;
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     border: none;
@@ -500,7 +500,7 @@ main {
     border-radius: 8px;
     background: rgb(255, 84, 0);
     color: white;
-    width: 393px;
+    width: 100%;
     height: 52px;
     display: flex;
     justify-content: center;
