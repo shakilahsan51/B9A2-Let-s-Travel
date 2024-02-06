@@ -232,3 +232,85 @@ main {
 .item-7 {
     grid-column: 6/span 7;
 }
+
+.item-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-title {
+    position: absolute;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+/* <!---------- Choose section------ --> */
+.choose {
+    margin-bottom: 100px;
+}
+
+.c-title {
+    text-align: center;
+}
+
+.c-des {
+    text-align: center;
+}
+
+.choose-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+}
+
+.hand-pick {
+
+    width: 48.5%;
+    height: 284px;
+    border: 1px solid rgba(251, 181, 99, 0.2);
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px 55px;
+}
+
+.world-class {
+    width: 48.5%;
+    height: 284px;
+    box-sizing: border-box;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+    padding: 32px 55px;
+}
+
+.best-price {
+
+    width: 48.5%;
+    height: 284px;
+    box-sizing: border-box;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+    padding: 32px 55px;
+}
+
+.card-title {
+    color: rgb(19, 19, 24);
+    font-size: 24px;
+    font-weight: 800;
+    padding: 10px 0;
+
+}
+
+.card-description {
+    color: rgb(90, 90, 93);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}

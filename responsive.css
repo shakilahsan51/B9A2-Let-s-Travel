@@ -56,7 +56,7 @@
     /* <!------------Destination-Section --> */
     .destination-image-container {
 
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(7, 1fr);
     }
 
     .item-1 {
@@ -86,5 +86,23 @@
     .item-7 {
         grid-column: 1/span 12;
     }
+
+    .hand-pick {
+
+        width: 100%;
+
+    }
+
+    .world-class {
+        width: 100%;
+
+    }
+
+    .best-price {
+
+        width: 100%;
+
+    }
+
 
 }
