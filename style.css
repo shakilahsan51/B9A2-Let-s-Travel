@@ -540,3 +540,42 @@ main {
     left: 45%;
     top: 65%;
 }
+
+
+
+/* <!----------- footer-section--------- --> */
+
+.footer-section {
+    background: rgba(19, 19, 24, 0.05);
+    height: 502px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.icon-container .fa-brands {
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.line2 {
+    width: 50%;
+    margin: 50px 0;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+}
+
+.footer-copyright {
+    color: rgb(19, 19, 24);
+    font-size: 16px;
+    font-weight: 300;
+}
